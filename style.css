@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0a0a22;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    color: #ffffff;
+}
+
+h1 {
+    padding: 40px 20px 20px 50px;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+span {
+    padding: 5px;
+}
+
+main {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+article {
+    padding: 15px;
+    box-shadow: 0px 0px 4px #ffffff;
+    border-radius: 5%;
+}
+
+article:hover {
+    transform: scale(1.1);
+}
